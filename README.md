@@ -52,14 +52,14 @@ Backend → External Services <br>
   Webhook support for video session events <br>
 
 4. AuthN and AuthZ <br>
-AuthZ — Authorization <br>
-  Model used: <br>
-    Role-Based Access Control (RBAC) <br>
-      Student <br>
-      Teacher <br>
-      Admin <br>
-  Examples: <br>
-    Only teachers may create assignments <br>
-    Students can only update their own submissions <br>
+-AuthZ — Authorization <br>
+ - Model used: <br>
+   - Role-Based Access Control (RBAC) <br>
+     - Student <br>
+     - Teacher <br>
+     - Admin <br>
+ - Examples: <br>
+   - Only teachers may create assignments <br>
+   - Students can only update their own submissions <br>
     Admins can manage users but not content <br>
 
